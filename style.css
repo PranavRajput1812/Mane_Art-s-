@@ -1,0 +1,74 @@
+ 
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    /*Designing Header  */
+header{
+        text-align: center;
+     
+    
+        width: 100%;
+       
+        height: 150px;
+        background-color: #1F2833;
+        margin-bottom: 30px;
+        padding: 30px;
+
+    }
+    header h1
+    {
+        font-size: 50px;
+        color:#FFF;
+        font-style: oblique;
+        width: 100%;
+        background-attachment: relative;
+    }
+    /* Arrange Product name */
+    .pro{
+        text-align: center;
+    }
+    /* Style body */
+    body{
+        background-color: #C2CAD0;
+    }
+    /* Main Section Style  */
+    .container{
+        max-width: 1200px;
+        margin: auto;
+       
+        overflow: auto;
+       
+    }
+    /* style Image */
+    .card{
+        margin: 5px;
+        border: 1px solid #d4ecff;
+        float: left;
+        width: 390px;
+        box-shadow: 0 0 4px #d4ecff;
+        
+
+    }
+    .card img{
+        width: 100%;
+        height: 430px;
+        transition: all 0.3s ease-in-out;
+       
+
+    }
+    .card img:hover{
+        box-shadow: 1px 1px 8px #d4ecff;
+        background-color: #2087ba;
+        /* transform: translateY(-5px); */
+
+    }
+    /* Adding Name of Product */
+    .desc{
+        padding: 15px;
+        text-align: center;
+    }
+  
+    
