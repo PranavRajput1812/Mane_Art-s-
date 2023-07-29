@@ -26,6 +26,33 @@ header{
         width: 100%;
         background-attachment: relative;
     }
+
+     /* Designing Nav */
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #99d7f6;
+        margin-top: -35px;
+    
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 5px 20px;
+     
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:#5955b3;
+        font-weight: bold;
+        font-size: 20px;
+        gap:55px
+    }
+  
     /* Arrange Product name */
     .pro{
         text-align: center;
